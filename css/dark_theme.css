@@ -1,0 +1,44 @@
+
+/******** default theme *******/
+
+
+
+/*active  link*/
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active,
+.toolbox .toolicon
+
+{
+background-color: #ce1d7d;    
+    
+} 
+
+/* span in the brand */
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.testimonial span,
+.footer h3,
+.copy span
+
+{
+    color: #ce1d7d;
+}
+
+.testimonial .carousel-indicators li.active,
+.dropdown-menu,
+.toolbox .color {
+ 
+    border-top: 2.5px solid #ce1d7d
+}
+
+
+.toolbox .color {
+ 
+    border: 2.5px solid #ce1d7d
+}

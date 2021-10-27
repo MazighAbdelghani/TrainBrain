@@ -1,0 +1,200 @@
+/*****************
+*****************
+*****************
+
+combine all pages :
+
+about.html
+FAQ.html
+
+
+*****************
+*****************
+****************/
+
+
+/* ================
+=================     start about page 
+
+
+         ==================
+         ================== */
+
+
+/*start breadcrumb */
+
+
+.bread {
+    background: #f5f5f5;
+
+}
+
+.breadcrumb {
+    margin: 0;
+    padding: 15px 0;
+    
+}
+
+.breadcrumb li {
+    font-size: 16px
+}
+
+/*end breadcrumb */
+
+/*start intro */
+
+
+.intro {
+    padding: 50px 0
+}
+
+.intro h2 {
+    font-family: lucida;
+    letter-spacing: -1.45px;
+    font-weight: bold;
+    font-size: 40px
+}
+
+
+.intro hr {width: 70%}
+
+.intro img {
+    width: 1000px;
+    height: 500px
+}
+
+/*end intro */
+
+
+/*start feat */
+
+.about-feat  {
+    padding: 0 0 50px
+}
+
+
+.about-feat h3 {
+    
+    font-weight: bold
+}
+
+.about-feat p {
+    margin-bottom: 20px;
+    line-height: 1.8
+}
+
+
+/*end feat*/
+
+/*start ceo */
+
+.ceo {
+    background: #eee;
+    padding: 50px 0
+    
+}
+
+.ceo .container {
+    margin-right: 97px;
+}
+
+
+.ceo img {
+    width: 100%
+}
+
+.ceo h2 {
+    margin-top: 0
+}
+
+.ceo .lead {
+    margin-bottom: 14.3px
+}
+
+
+.ceo button {
+    background: #333;
+    border-color: #333
+}
+/*end ceo */
+
+
+
+
+/* ================
+=================     end about page 
+
+
+         ==================
+         ================== */
+
+
+
+
+/* ================
+=================     start FAQ page 
+
+
+         ==================
+         ================== */
+
+
+
+
+
+
+
+
+/* ================
+=================     end FAQ page 
+
+
+         ==================
+         ================== */
+
+
+
+
+/*start intro */
+
+
+.faq {
+    padding: 40px 0
+}
+
+.faq h2 {
+    
+    font-size: 45px;
+    letter-spacing: -2px
+}
+
+.faq hr {
+    width: 70%
+}
+
+/*end intro */
+
+
+
+/*start accordian */
+
+
+.question {
+    
+    
+}
+
+.question .panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #444
+}
+
+.question .panel-heading a.collapsed:after {
+    content: "\e080";
+    color: #888
+}
+
+
+/*end accordian */
